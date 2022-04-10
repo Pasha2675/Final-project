@@ -1,0 +1,75 @@
+body {
+    background: #fff;
+}
+
+.login {
+    padding: 130px 75px 50px 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.login .create p {
+    text-align: center;
+    color: #1e1e2e;
+    font-size: 4rem;
+}
+
+.login .create p span {
+    color: #C3083F;
+}
+
+.login .login-form {
+    background: #1e1e2e;
+    width: 300px;
+    height: 380px;
+    position: relative;
+}
+
+.login .login-form .form {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.login .login-form .form label {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.login .login-form .form input {
+    width: 240px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 0 10px;
+}
+
+.login .login-form .form input:focus {
+    outline: none !important;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 4px #fff;
+}
+
+.login .login-form button {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    height: 30px;
+    width: 120px;
+    background: #C3083F;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.login .login-form button:hover {
+    background: #8c1237;
+}
